@@ -51,3 +51,14 @@ body img {
 .container section .images img {
     width: 250px;
 }
+
+.submitButton{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.submitButton button{
+    background-color: #7ebb00;
+    color: white;
+}
