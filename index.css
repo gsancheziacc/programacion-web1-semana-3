@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+    
+}
+body img {
+    width: 100px;
+    height: 24px;
+}
+.container {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+}
+.container section {
+    display: block;
+    height:94%;
+    width:100%;
+    padding: 60px;
+    padding-left: 120px;
+    box-sizing:border-box;
+    background-color:aliceblue;
+}
+
+.navbar-brand .brand-text {
+    color: #7ebb00;
+    padding-left: 30px;
+}
+
+.container section h1 {
+    color: #7ebb00;
+}
+
+.container section .video {
+    width: 100%;
+    height: 50%;
+}
+
+.container section .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container section .images img {
+    width: 250px;
+}
